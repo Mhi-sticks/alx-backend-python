@@ -1,18 +1,27 @@
 <p>
-<img width="260" height="170" src="https://image.flaticon.com/icons/svg/1137/1137130.svg" align="right" >
+<img width="260" height="170" src="https://www.flaticon.com/svg/static/icons/svg/1661/1661330.svg" align="right" >
 </p>
 
-# :colombia: holbertonschool-web_back_end
+# :colombia: 0x00. Python - Variable Annotations
+
+- Type annotations in Python 3
+- How you can use type annotations to specify function signatures and variable types
+- Duck typing
+- How to validate your code with mypy
 
 ## Prerequisites
 
-Holberton foundations 9 months
-
-## Built With
-
-- Python 3xx
-- PycodeStyle
-- mypy(Annotations)
+- Allowed editors: vi, vim, emacs
+- All your files will be interpreted/compiled on Ubuntu 18.04 LTS using python3 (version 3.7)
+- All your files should end with a new line
+- The first line of all your files should be exactly `#!/usr/bin/env python3`
+- A README.md file, at the root of the folder of the project, is mandatory
+- Your code should use the `pycodestyle` style (version 2.5.)
+- All your files must be executable
+- The length of your files will be tested using wc
+- All your modules should have a documentation `(python3 -c 'print(__import__("my_module").__doc__)')`
+- All your classes should have a documentation `(python3 -c 'print(__import__("my_module").MyClass.__doc__)')`
+- All your functions (inside and outside a class) should have a documentation `(python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import_- ("my_module").MyClass.my_function.__doc__)')`
 
 ## Contributing
 
@@ -20,34 +29,26 @@ Holberton foundations 9 months
 
 ## Versioning
 
-For my learning in ALX School
+For my learning of backend web dev in Holberton School
 
 ## Authors
 
---- Deborah Jimmy
-
-## Images of Readme
-
-- [Flaticon](https://www.flaticon.es/)
+---Santiago Yanguas 946@holbertonshcool.com
 
 ## Files
 
-| directories                              | Description                               |
-| ---------------------------------------- | ----------------------------------------- |
-| **0x00. Python - Variable Annotations**  | Typing in Python 3.7                      |
-| **0x01. Python - Async**                 | Async Functions                           |
-| **0x02 Python - Async Comprehension**    | Async Comprehension                       |
-| **0x03. Caching**                        | Types of Caching                          |
-| **0x04. Pagination**                     | Type of Pagination                        |
-| **0x05. Personal data**                  | Personal PII and Non PII                  |
-| **0x06. Basic authentication**           | Simple API Auth                           |
-| **0x07-Session_authentication**          | Session Authentication and Authorizathion |
-| **0x08-user_authentication_service**     | AUTH Classes                              |
-| **0x09-Unittests_and_integration_tests** | Unittest Python                           |
-| **0x0A-i18n**                            | Internazionalization                      |
-| **0x0B_redis_basic**                     | Redis Cache Basic Python                  |
-| **0x0C-MySQL_Advanced**                  | MySQL                                     |
-| **0x0D-NoSQL**                           | Not Only SQL                              |
-| **0x0E-ES6_basic**                       | ECMA SCRIPT 6                             |
-| **0x0F-ES6_promise**                     | ECMA SCRIPT Promises                      |
-| **0x10-ES6_classes**                     | ECMA SCRIPT Classes                       |
+| Files                                      | Description                                   |
+| ------------------------------------------ | --------------------------------------------- |
+| **0-add.py, 0-main.py**                    | Basic annotations - add                       |
+| **1-main.py, 1-concat.py**                 | Basic annotations - concat                    |
+| **2-main.py, 2-floor.py**                  | Basic annotations - floor                     |
+| **3-main.py, 3-to_str.py**                 | Basic annotations - to string                 |
+| **4-define_variables.py, 4-main.py**       | Define variables                              |
+| **5-main.py, 5-sum_list.py**               | Complex types - list of floats                |
+| **6-main.py, 6-sum_mixed_list.py**         | Complex types - mixed list                    |
+| **7-main.py, 7-to_kv.py**                  | Complex types - string and int/float to tuple |
+| **8-main.py, 8-make_multiplier.py**        | Complex types - functions                     |
+| **9-main.py, 9-element_length.py**         | Let's duck type an iterable object            |
+| **100-safe_first_element.py, 100-main.py** | Duck typing - first element of a sequence     |
+| **101-safely_get_value.py, 101-main.py**   | More involved type annotations                |
+| **102-main.py, 102-type_checking.py**      | Type Checking                                 |
